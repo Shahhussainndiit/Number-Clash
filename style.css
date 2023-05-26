@@ -1,0 +1,177 @@
+/* CSS for the container */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #222;
+    color: #fff;
+  }
+  
+  /* CSS for the timer */
+  .timer {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* CSS for the number box */
+  .number-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  /* CSS for the number buttons */
+  .number-box button {
+    margin: 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #444;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    transition: background 0.3s ease;
+  }
+  
+  .number-box button:hover {
+    background-color: #666;
+  }
+  
+  /* CSS for the display */
+  .display {
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* CSS for the players */
+  .players {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  /* CSS for player elements */
+  .player {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #666;
+    border-radius: 5px;
+    background-color: #333;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .player:hover {
+    transform: scale(1.05);
+  }
+  
+  /* CSS for player names */
+  .player .name {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  /* CSS for player numbers */
+  .player .number {
+    font-size: 14px;
+  }
+  
+  /* CSS for the result */
+  .result {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #333;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* CSS for result headings */
+  .result h2 {
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  /* CSS for result paragraphs */
+  .result p {
+    margin-bottom: 5px;
+    color: #fff;
+  }
+  
+  /* CSS for winning player */
+  .result p.winner {
+    font-weight: bold;
+    color: #ba68c8;
+  }
+  
+ /* CSS for the result */
+.result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    background: linear-gradient(135deg, #383838, #222);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* CSS for result headings */
+  .result h2 {
+    margin-bottom: 10px;
+    color: #ba68c8;
+  }
+  
+  /* CSS for result paragraphs */
+  .result p {
+    margin-bottom: 5px;
+    color: #fff;
+  }
+  
+  /* CSS for winning player */
+  .result p.winner {
+    font-weight: bold;
+    color: #ba68c8;
+  }
+  
+  /* CSS for player numbers */
+  .result .player-number {
+    font-weight: bold;
+    color: #7b1fa2;
+  }
+  
+  /* CSS for bot numbers */
+  .result .bot-number {
+    color: #9c27b0;
+  }
+  
+  /* CSS for result elements */
+  .result .result-element {
+    margin-bottom: 15px;
+  }
+  
+  /* CSS for hover effect */
+  .result .result-element:hover {
+    background: linear-gradient(135deg, #4a148c, #9c27b0);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transform: translateY(-2px);
+  }
+  
+  
